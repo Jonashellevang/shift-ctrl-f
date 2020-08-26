@@ -27,10 +27,8 @@ works very well, but in some cases it can be a bad proxy.
 In our example above we search
 [https://stripe.com/docs/testing](https://stripe.com/docs/testing), aiming to
 understand the **difference between test mode and live mode**. With string
-matching, you might search through some relevant phrases `"live mode"`, `"test
-mode"`, and/or `"difference"` and scan through results. With semantic search, you
-can directly phrase your question `"What is the difference between live mode
-and test mode?"`. We see that the model returns a relevant result, even though
+matching, you might search through some relevant phrases `"live mode"`, `"test mode"`, and/or `"difference"` and scan through results. With semantic search, you
+can directly phrase your question `"What is the difference between live mode and test mode?"`. We see that the model returns a relevant result, even though
 the page does not contain the term "`difference`".
 
 ### How It Works
@@ -64,9 +62,9 @@ three components.
 
 Make sure you have these dependencies installed.
 
-1) [Node](https://nodejs.org/en/download/)
-2) [Yarn](https://classic.yarnpkg.com/en/docs/install)
-3) [Prettier](https://prettier.io/docs/en/install.html)
+1. [Node](https://nodejs.org/en/download/)
+2. [Yarn](https://classic.yarnpkg.com/en/docs/install)
+3. [Prettier](https://prettier.io/docs/en/install.html)
 
 Then run:
 
